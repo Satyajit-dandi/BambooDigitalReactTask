@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+.mainDiv {
+  width: 375px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +39,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

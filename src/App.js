@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
+import Header from './component/layout/Header'
+import Banner from './component/layout/Banner';
+import NewArrival from './component/layout/NewArrival';
+import Brand from './component/layout/Brand';
+import Collection from './component/layout/Collection';
+import Video from './component/layout/Video';
+import Product from './component/layout/Product';
+import Trendingnfashion from './component/layout/Trendingnfashion';
+import Followus from './component/layout/Followus';
+import Footer from './component/layout/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App mainDiv">
+      <Header></Header>
+      <Banner></Banner>
+      <NewArrival></NewArrival>
+      <Brand></Brand>
+      <Collection></Collection>
+      <Video></Video>
+      <Product></Product>
+      <Trendingnfashion></Trendingnfashion>
+      <Followus></Followus>
+      <Footer></Footer>
     </div>
   );
 }

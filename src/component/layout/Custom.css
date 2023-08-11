@@ -1,0 +1,336 @@
+.bannerHeading {
+  color: var(--gray-scale-body, #333);
+  font-family: Bodoni Moda;
+  font-size: 22px;
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.208px;
+  line-height: 43.488px;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 235px;
+}
+
+.positionDiv {
+  position: relative;
+}
+
+.explorenow {
+  width: 235px;
+  height: 40px;
+  padding: 8px 20px;
+  border-radius: 30px;
+  border: none;
+  background: rgb(0 0 0 / 70%);
+  color: var(--gray-scale-off-white, #fcfcfc);
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0 75px;
+}
+.banner {
+  position: absolute;
+  bottom: 30px;
+}
+
+.newArrivalHeading {
+  color: var(--gray-scale-title-active, #000);
+  text-align: center;
+  font-family: Tenor Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.options {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--gray-scale-placehoder, #888);
+  text-align: center;
+  font-family: Tenor Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106%; /* 14.84px */
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.options span:hover {
+  color: var(--secondery-default, #212806);
+  transition: all 0.5s cubic-bezier(0.51, 0.19, 0.95, 0.79);
+  font-weight: 800;
+}
+
+.collectedArrivals {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 30px 0;
+}
+.arrival1Cost,
+.arrival2Cost,
+.arrival3Cost,
+.arrival4Cost {
+  margin: 12px 0;
+  color: var(--primary-default, #dd8560);
+  font-family: Tenor Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+
+.arrival1Desc,
+.arrival2Desc,
+.arrival3Desc,
+.arrival4Desc {
+  margin: 12px 0;
+  color: var(--gray-scale-body, #333);
+  text-align: center;
+  font-family: Tenor Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.exploreMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.explore {
+  color: var(--gray-scale-title-active, #000);
+  font-family: Tenor Sans;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 15px;
+}
+
+.brandLogo {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-row-gap: 25px;
+  margin: 25px 0;
+}
+
+.brandList {
+  margin: 30px 0;
+}
+
+.ten {
+  color: var(--gray-scale-body, #333333a3);
+  font-family: Bodoni Moda;
+  font-style: italic;
+  font-size: 160px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.relative {
+  position: relative;
+  right: -80px;
+  bottom: 203px;
+}
+
+.octoberCollection {
+  color: #fcfcfc;
+  font-family: Bodoni Moda;
+  font-size: 50px;
+  /* color: black; */
+  width: 66%;
+  margin: 0;
+  position: absolute;
+  text-align: left;
+  top: 52px;
+  right: 0px;
+  font-style: italic;
+}
+.octoberCollection2 {
+  color: #fcfcfc;
+  font-family: Bodoni Moda;
+  font-size: 30px;
+  width: 66%;
+  margin: 0;
+  position: absolute;
+  text-align: left;
+  right: -8px;
+  top: 108px;
+}
+
+.collectionHeading {
+  color: var(--gray-scale-title-active, #000);
+  font-family: Tenor Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.autumn {
+  color: var(--gray-scale-body, #333333ad);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Bodoni Moda;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.collection {
+  color: var(--gray-scale-body, #333);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Tenor Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 5.307px;
+  margin-top: 0;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.relative2 {
+  position: relative;
+  bottom: 325px;
+  right: -35px;
+}
+
+.productList {
+  margin: 20px 0px;
+  display: flex;
+  overflow-x: hidden;
+}
+.products h4 {
+  color: var(--gray-scale-title-active, #000);
+  font-family: Tenor Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: 55px;
+  margin-bottom: 0;
+}
+.prod {
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.trendHeader {
+  color: var(--gray-scale-title-active, #000);
+  font-family: Tenor Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.trendOptions {
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trendOptions p {
+  border-radius: 30px;
+  background: var(--gray-scale-input-bg, #f9f9f9);
+  padding: 5px 10px;
+  margin: 15px 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.trendOptions p:hover {
+  color: white;
+  background-color: #514e4e;
+  transition: all 0.5s ease-in;
+}
+
+/* tredning page  */
+
+.description {
+  padding: 0 40px 15px;
+  color: var(--gray-scale-label, #555);
+  font-family: Tenor Sans;
+  font-size: 17px;
+  letter-spacing: 0.14px;
+  opacity: 0.7;
+}
+.specialFeature {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 30px 0;
+}
+.features p {
+  font-size: 15px;
+}
+
+/* follow us page */
+.followUS h1 {
+  color: var(--gray-scale-title-active, #000);
+  font-family: Tenor Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.peoples {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 10px;
+}
+.peoples p {
+  position: relative;
+  width: 144px;
+  height: 25px;
+  padding: 0 10px;
+  bottom: 45px;
+  left: 7px;
+  color: #fff;
+  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  text-align: initial;
+  font-family: Tenor Sans;
+  letter-spacing: 1px;
+}
+
+/* footer page  */
+
+.socialLinks {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 25px;
+}
+.socialLinks img{
+    cursor: pointer;
+}
+
+.home h3{
+    cursor: pointer;
+}
+.arrival1:hover{
+    cursor: pointer;
+    transform: translate3d(-3px, -3px, 10px);
+    transition: all 0.2s cubic-bezier(0.51, 0.19, 0.95, 0.79);
+    font-weight: 800;
+}
